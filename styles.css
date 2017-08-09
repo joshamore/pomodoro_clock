@@ -1,0 +1,131 @@
+body {
+    background-color: slategrey;
+    font-family: 'Raleway', sans-serif;
+}
+
+/******************************
+Heading Section
+******************************/
+#headings {
+    text-align: center;
+}
+#subheading {
+    font-style: italic;
+}
+
+
+/******************************
+Clock Section
+******************************/
+#clock {
+    display: block;
+    margin: 0 auto;
+    width: 300px;
+    padding: 20px;
+    border: 1px solid black;
+    background-color: white;
+    border-radius: 10%;
+}
+
+
+/******************************
+Toggle Section
+******************************/
+#toggles {
+    display: block;
+    margin: 0 auto;
+    width: 260px;
+    margin-bottom: 20px;
+}
+.toggleItem {
+    width: 125px;
+    display: inline-block;
+    border: 1px solid black;
+    border-radius: 15%;
+    text-align: center;
+}
+#breakView {
+    margin-top: -15%;
+}
+#sessionView {
+    margin-top: -15%;
+}
+.toggleView {
+    display: inline;
+}
+.tapItem {
+    cursor: pointer;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 2rem;
+}
+.tapItem:active {
+    color: slategrey;
+}
+
+
+/******************************
+Session Section
+******************************/
+#timerTitle {
+    font-size: 1.5rem;
+}
+#countdownTimer {
+    text-align: center;
+    margin: 0 auto;
+    border: 5px solid black;
+    padding-bottom: 5%; 
+    margin-bottom: 20px;
+    width: 245px;
+}
+#timer {
+    font-size: 2.5rem;
+    font-family: 'Roboto Mono', monospace;
+    margin-top: -15px;
+    margin-bottom: 2%;
+}
+
+
+/******************************
+ Button Section
+******************************/
+#buttons {
+    display: block;
+    margin: 0 auto;
+    width: 130px;
+}
+#countdownToggleButton {
+    width: 50px;
+    display: inline-block;
+    margin-right: 20px;
+    border: 1px solid black;
+    border-radius: 15%;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 100%;
+}
+.startBtn {
+    background-color: limegreen;
+}
+.stopBtn {
+    background-color: red;
+}
+#resetButton {
+    width: 50px;
+    display: inline-block;
+    border: 1px solid black;
+    border-radius: 15%;
+    text-align: center;
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    border-radius: 100%;
+}
+
+
+/******************************
+Footer Section
+******************************/
+#footer {
+    margin-top: 50px;
+    text-align: center;
+}
