@@ -1,4 +1,4 @@
-// Holds any required data.
+// Holds required data.
 var model = {
     timerActive: false,
     countdownStep: "session",
