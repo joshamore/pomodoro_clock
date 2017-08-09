@@ -188,8 +188,8 @@ var elements = {
     sessionMinus: document.getElementById("sessionMinus"),
     timerTitle: document.getElementById("timerTitle"),
     timer: document.getElementById("timer"),
-    reset: document.getElementById("resetButton"),
     countdownToggle: document.getElementById("countdownToggleButton"),
+    reset: document.getElementById("resetButton")
 };
 
 
