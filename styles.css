@@ -1,3 +1,6 @@
+/******************************
+Overall
+******************************/
 body {
     background-color: slategrey;
     font-family: 'Raleway', sans-serif;
@@ -103,12 +106,6 @@ Session Section
     cursor: pointer;
     border-radius: 100%;
 }
-.startBtn {
-    background-color: limegreen;
-}
-.stopBtn {
-    background-color: red;
-}
 #resetButton {
     width: 50px;
     display: inline-block;
@@ -119,6 +116,12 @@ Session Section
     background-color: black;
     color: white;
     border-radius: 100%;
+}
+.startBtn {
+    background-color: limegreen;
+}
+.stopBtn {
+    background-color: red;
 }
 
 
